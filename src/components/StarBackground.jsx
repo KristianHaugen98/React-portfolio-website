@@ -24,9 +24,11 @@ export const StarBackground = () => {
 
   useEffect(() => {
     const generateStars = () => {
+      const density = window.innerWidth < 768 ? 20000 : 10000;
       const numberOfStars = Math.floor(
-        (window.innerWidth * window.innerHeight) / 10000
+        (window.innerWidth * window.innerHeight) / density
       );
+
       const newStars = [];
 
       for (let i = 0; i < numberOfStars; i++) {
@@ -43,7 +45,7 @@ export const StarBackground = () => {
     };
 
     const generateMeteors = () => {
-      const numberOfMeteors = 4;
+      const numberOfMeteors = window.innerWidth < 768 ? 2 : 4;
       const newMeteors = [];
 
       for (let i = 0; i < numberOfMeteors; i++) {
