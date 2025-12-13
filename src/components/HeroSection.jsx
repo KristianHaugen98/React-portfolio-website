@@ -4,7 +4,7 @@ export const HeroSection = () => {
   return (
     // Main hero section — takes full screen height:
     <section
-      id="Hero"
+      id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       {/* Content container — centered, max width for readability */}
@@ -26,14 +26,11 @@ export const HeroSection = () => {
           {/* Introduction paragraph — appears after name */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in-delay-4">
             Front-End student at Noroff Building fast, responsive, and visually
-            stunning websites with modern React, Vite, and Tailwind — with
-            smooth animations and a touch of cosmic flair. Currently launching
-            real projects into orbit.
+            stunning websites — with smooth animations and a touch of cosmic
+            flair. <br /> Currently launching real projects into orbit.
             <br />
             <br />
-            And part-time tech specialist at Harddisk Datapartner AS — helping
-            customers daily as a salesman with PCs, phones, hardware, and
-            troubleshooting.
+            And part-time Sales Associate / Advisor at Harddisk Datapartner AS
             <br />
             <strong className="text-foreground">
               Let’s create something extraterrestrial.
