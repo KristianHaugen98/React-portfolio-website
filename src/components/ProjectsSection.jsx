@@ -1,6 +1,6 @@
-import { ExternalLink } from "lucide-react";
+import { ArrowBigRight, ExternalLink } from "lucide-react";
 import { Github } from "lucide-react";
-
+import { ArrowRight } from "lucide-react";
 // Lists of projects:
 const projects = [
   // Project 1:
@@ -80,35 +80,47 @@ export const ProjectsSection = () => {
                     </span>
                   )) ?? null}
                 </div>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-muted-foreground text-sm mb-4">
-                {project.description}
-              </p>
-              <div className="flex justify-between items-center">
-                <div className="flex space-x-3">
-                  {/* Takes user to the website: */}
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    className="text-foreground/80 hover:text-primary transition-colours duration-300"
-                  >
-                    <ExternalLink />
-                  </a>
-                  {/* Only show GitHub for first two projects, because project 3 is not a programming project: */}
-                  {key < 2 && (
+
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-muted-foreground text-sm mb-4">
+                  {project.description}
+                </p>
+                <div className="flex justify-between items-center">
+                  <div className="flex space-x-3">
+                    {/* Takes user to the website: */}
                     <a
-                      href={project.githubUrl}
+                      href={project.demoUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      className="text-foreground/80 hover:text-primary transition-colours duration-300"
                     >
-                      <Github className="text-foreground/80 hover:text-primary transition-colours duration-300" />
+                      <ExternalLink />
                     </a>
-                  )}
+                    {/* Only show GitHub for first two projects, because project 3 is not a programming project: */}
+                    {key < 2 && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Github className="text-foreground/80 hover:text-primary transition-colors duration-300" />
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+        {/*Link to our general GitHub: */}
+        <div className="text-center mt-12">
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            href="https://github.com/KristianHaugen98"
+            target="_blank"
+          >
+            My GitHub
+            <ArrowRight size={20} />
+          </a>
         </div>
       </div>
     </section>
