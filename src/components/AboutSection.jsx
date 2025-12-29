@@ -13,25 +13,31 @@ export const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">More about me:</h3>
             <p className="text-muted-foreground">
-              Hi, I’m Kristian — Front-End Development student at Noroff,
-              graduating summer 2026. I’m passionate about building clean, fast,
-              and accessible websites with great user experiences. <br />
-              Right now I’m deep into HTML, CSS, JavaScript, React, responsive
+              Front-End Development student at Noroff, graduating summer 2026.
+              I’m passionate about building clean, fast, and accessible websites
+              with great user experiences. <br />
+              Right now I’m deep into React with Tailwind CSS, responsive
               design, and modern workflows — and I love seeing my projects come
-              to life.
+              to life. I place strong emphasis on security best practices in
+              every project. I understand that a beautiful, fast website is only
+              valuable if it’s also safe for users. From secure data handling
+              and protecting against common vulnerabilities. <br />I also have
+              knowledge of testing as well, to make sure the the websites work
+              properly.
               <br /> <br /> Alongside my studies. I work as a Sales Associate at
               Harddisk Datapartner AS, where I help customers daily with PCs,
-              mobiles, components, and accessories. I troubleshoot and fix
-              issues on the spot (phones, computers, custom builds, you name
-              it), so I bring real-world IT expertise and strong customer-facing
-              skills to everything I do.
+              phones, components, and accessories. I troubleshoot and fix issues
+              on the spot (phones, computers, custom builds, you name it), so I
+              bring real-world IT expertise and strong customer-facing skills to
+              everything I do.
               <br /> <br /> I also love to work out, be social and learn new
               skills. I`m exited about the futhure, and think about things we
               can do to make the world a better place for all <br /> <br /> I’m
               excited to combine fresh front-end knowledge with years of
               hands-on tech experience when I enter the industry full-time.
-              Always up for a chat about code, projects, or future opportunities{" "}
-              <br /> <br /> feel free to reach out!
+              Always up for a chat about code, projects, or future
+              opportunities.
+              <br /> <br /> Feel free to reach out!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -77,24 +83,6 @@ export const AboutSection = () => {
 
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded bg-primary/20">
-                  <div className="text-left">
-                    <h4 className="font-semibold text-lg">Cyber Security:</h4>
-                    <p className="text-muted-foreground">
-                      {" "}
-                      As a front-end developer, I place strong emphasis on
-                      security best practices in every project. I understand
-                      that a beautiful, fast website is only valuable if it’s
-                      also safe for users. From secure data handling and
-                      protecting against common vulnerabilities (like XSS and
-                      CSRF) to staying updated on threats like the recent React
-                      Server Components exploit, I prioritize writing clean,
-                      secure code and following industry guidelines. Security
-                      isn’t an afterthought — it’s built into my development
-                      process from day one.
-                    </p>
-                  </div>
-                </div>
                 {/* I might delete or edit this part */}
                 <div className="p-3 rounded bg-primary/20">
                   <div className="text-left">

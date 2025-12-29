@@ -52,7 +52,7 @@ export const HeroSection = () => {
               </div>
             </div>
             {/* Button below photo */}
-            <div className="mt-10">
+            <div className="mt-10 pb-3">
               <a href="#projects" className="cosmic-button text-lg px-8 py-4">
                 View my work
               </a>
@@ -61,8 +61,8 @@ export const HeroSection = () => {
         </div>
       </div>
       {/* Scroll indicator at the bottom — bounces to guide user, this also hides the scroll when using mobile*/}
-      <div className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center animate-bounce ">
-        <span className="text-sm text-muted-foreground md-2">Scroll</span>
+      <div className="hidden md:flex absolute bottom-5 left-1/2 -translate-x-1/2 flex-col items-center animate-bounce  ">
+        <span className="text-sm text-muted-foreground md-2 ">Scroll</span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>

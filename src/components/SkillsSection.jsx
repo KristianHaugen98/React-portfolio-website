@@ -18,6 +18,7 @@ const skills = [
   { name: "Github", category: "tools" },
   { name: "Github Desktop", category: "tools" },
   { name: "Visual Studio Code", category: "tools" },
+  { name: "Playwright (testing)", category: "tools" },
 ];
 
 // Buttons for filtering — "all" shows everything:

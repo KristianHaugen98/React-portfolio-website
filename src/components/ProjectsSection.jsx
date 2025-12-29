@@ -52,8 +52,8 @@ export const ProjectsSection = () => {
           Featured <span className="text-primary"> Projects </span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto relative">
-          My projects, more will come as time goes. Im learning every dag, and
-          staying up do date with tech news, or games!
+          My projects will grow, and more will come as time goes. Im learning
+          every dag, and staying up do date with tech news, or games!
         </p>
 
         {/* Displaying the projects in cards: */}

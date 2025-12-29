@@ -16,7 +16,8 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          I'd love to hear about any openings on your team or upcoming projects.
+          I'd love to hear about any openings on your team or upcoming projects.{" "}
+          <br />
           Happy to share more about my work, or jump on a quick call. <br />
           Looking forward to connecting!
         </p>
@@ -60,7 +61,7 @@ export const ContactSection = () => {
                   <MapPinIcon className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Location: Bergen:</h4>
+                  <h4 className="font-medium">Location:</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Norway, Bergen
                   </a>
