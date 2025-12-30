@@ -9,6 +9,7 @@ const skills = [
   { name: "React", category: "front-end" },
   { name: "Tailwind CSS", category: "front-end" },
   { name: "Bootstrap CSS", category: "front-end" },
+  { name: "WordPress", category: "front-end" },
 
   // Design:
   { name: "General design", category: "design" },
@@ -16,9 +17,11 @@ const skills = [
 
   // Tools:
   { name: "Github", category: "tools" },
+  { name: "Github Projects", category: "tools" },
   { name: "Github Desktop", category: "tools" },
   { name: "Visual Studio Code", category: "tools" },
   { name: "Playwright (testing)", category: "tools" },
+  { name: "AI Prompter", category: "tools" },
 ];
 
 // Buttons for filtering — "all" shows everything:
