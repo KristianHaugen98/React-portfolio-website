@@ -1,6 +1,5 @@
-// For some reason, Github dont get the naming right on this, im trying to fix it..:
-import { ThemeToggle } from "../components/themeToggle";
-
+// For some reason, Github dont get the naming right on this. Now the naming should be right..
+import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "../components/StarBackground";
 import { NavBar } from "../components/Navbar";
 import { HeroSection } from "../components/HeroSection";
