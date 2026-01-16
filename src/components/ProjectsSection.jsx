@@ -6,29 +6,23 @@ const projects = [
   // Project 1:
   {
     id: 1,
-    title: "My First page",
-    description: "My first website with plain HTML, CSS and JavaScript.",
+    title: "Action Bidding",
+    description:
+      "Action website where people you can view actions and place bids with profile page.",
     image: "/projects/project1.png",
-    tags: ["HTML 5", "CSS 3", "JavaScript"],
-    demoUrl: "https://kristiansfirstwebsite.netlify.app/",
-    githubUrl:
-      "https://github.com/Noroff-FEU-Assignments/cross-course-project-KristianHaugen98",
+    tags: ["Bootstrap (for styling)", "Playwright Testing"],
+    demoUrl: "https://actionbidding.netlify.app/",
+    githubUrl: "https://github.com/KristianHaugen98/Action-Bidding",
   },
   // Project 2:
   {
     id: 1,
-    title: "Action Bidding",
+    title: "FlowBuy",
     description:
-      "Action website where people you can view actions and place bids with profile page.",
-    image: "/projects/project2.png",
-    tags: [
-      "HTML 5",
-      "CSS 3",
-      "Boostrap CSS",
-      "Playwright Testing",
-      "JavaScript",
-    ],
-    demoUrl: "https://actionbidding.netlify.app/",
+      "Innovating the future of online shopping, and offer a wide selection, great prices, fast performance, and an accessible, enjoyable store for everyone. ",
+    image: "/projects/project2.jpg",
+    tags: ["React", "Boostrap (for styling)", "React E-commerce store"],
+    demoUrl: "https://flowbuy.netlify.app/",
     githubUrl: "https://github.com/KristianHaugen98/Action-Bidding",
   },
   // project 3 (Side project):
